@@ -1,0 +1,38 @@
+{
+  "teams": [
+    {
+      "team_id": "Team1",
+      "name": "Alpha Warriors",
+      "members": ["Alice Chen", "Bob Johnson"],
+      "agent": "ApexAlpha"
+    },
+    {
+      "team_id": "Team2",
+      "name": "Quantum Risk",
+      "members": ["Carol Davis", "David Kim"],
+      "agent": "NeuraQuant"
+    },
+    {
+      "team_id": "Team3",
+      "name": "Breakout Kings",
+      "members": ["Eve Martinez", "Frank Liu"],
+      "agent": "VisionX"
+    },
+    {
+      "team_id": "Team4",
+      "name": "Data Dynamics",
+      "members": ["Grace Wang", "Henry Brown"],
+      "agent": "DataForge"
+    },
+    {
+      "team_id": "Team5",
+      "name": "Scalp Masters",
+      "members": ["Iris Taylor", "Jack Miller"],
+      "agent": "CortexZero"
+    }
+  ],
+  "hackathon_name": "Kushal AI Trading Bot Hackathon",
+  "hackathon_duration_days": 14,
+  "start_date": "2024-01-01",
+  "end_date": "2024-01-15"
+}

@@ -1,0 +1,14 @@
+{
+  "agent_id": "BTC_Breakout",
+  "symbol": "BTC/USDT",
+  "style": "breakout",
+  "description": "Bitcoin breakout trader catching momentum expansions",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 4,
+    "confidence_threshold": 0.68,
+    "risk_appetite": "medium-high"
+  },
+  "prompt_style": "You are BTC_Breakout, an aggressive breakout specialist on Bitcoin. You enter on volume spikes when price breaks key levels.",
+  "team_id": "Team3"
+}

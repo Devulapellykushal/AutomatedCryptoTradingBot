@@ -1,0 +1,14 @@
+{
+  "agent_id": "BTC_MeanReversion",
+  "symbol": "BTC/USDT",
+  "style": "mean_reversion",
+  "description": "Bitcoin mean reversion trader buying oversold and selling overbought",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 3,
+    "confidence_threshold": 0.65,
+    "risk_appetite": "low-medium"
+  },
+  "prompt_style": "You are BTC_MeanReversion, a patient trader who waits for extreme RSI levels and Bollinger Band touches on Bitcoin.",
+  "team_id": "Team2"
+}

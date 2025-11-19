@@ -1,0 +1,15 @@
+{
+  "agent_id": "BNB_MultiTimeframe",
+  "symbol": "BNB/USDT",
+  "style": "multi_timeframe",
+  "description": "BNB multi-timeframe confirmation strategy for aligned signals",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 4,
+    "confidence_threshold": 0.68,
+    "risk_appetite": "medium",
+    "timeframes": ["3m", "15m", "1h"]
+  },
+  "prompt_style": "You are BNB_MultiTimeframe, a patient trader who waits for all timeframes to align before entering BNB positions.",
+  "team_id": "Team2"
+}

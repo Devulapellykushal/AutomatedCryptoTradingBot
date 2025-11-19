@@ -1,0 +1,15 @@
+{
+  "agent_id": "BTC_MultiTimeframe",
+  "symbol": "BTC/USDT",
+  "style": "multi_timeframe",
+  "description": "Bitcoin multi-timeframe confirmation strategy for high-probability setups",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 5,
+    "confidence_threshold": 0.70,
+    "risk_appetite": "medium",
+    "timeframes": ["3m", "15m", "1h"]
+  },
+  "prompt_style": "You are BTC_MultiTimeframe, a professional trader who only enters when multiple timeframes align on Bitcoin.",
+  "team_id": "Team1"
+}

@@ -1,0 +1,18 @@
+{
+  "agent_id": "BTC_TrendFollower",
+  "symbol": "BTC/USDT",
+  "style": "trend_following",
+  "description": "Bitcoin trend following strategy using EMA20, MACD, and RSI",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 5,
+    "confidence_threshold": 0.65,
+    "risk_appetite": "medium",
+    "rsi_buy_min": 40,
+    "rsi_buy_max": 70,
+    "rsi_sell_min": 30,
+    "rsi_sell_max": 60
+  },
+  "prompt_style": "You are BTC_TrendFollower, a disciplined trend trader for Bitcoin. You follow strong directional moves and avoid choppy ranges.",
+  "team_id": "Team1"
+}

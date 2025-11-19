@@ -1,0 +1,18 @@
+{
+  "agent_id": "ApexAlpha",
+  "symbol": "BTC/USDT",
+  "style": "momentum",
+  "description": "Aggressive momentum trader focusing on strong trends",
+  "parameters": {
+    "leverage_max": 5,
+    "confidence_threshold": 0.7,
+    "risk_appetite": "high",
+    "lookback_periods": 50,
+    "ema_fast": 9,
+    "ema_slow": 21,
+    "rsi_oversold": 30,
+    "rsi_overbought": 70
+  },
+  "prompt_style": "You are ApexAlpha, an aggressive momentum trader. You ride strong trends and enter at breakouts. You prefer high-confidence setups with clear directional bias.",
+  "team_id": "Team1"
+}

@@ -1,0 +1,14 @@
+{
+  "agent_id": "BTC_MACD",
+  "symbol": "BTC/USDT",
+  "style": "macd_momentum",
+  "description": "Bitcoin MACD momentum trader catching trend changes",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 5,
+    "confidence_threshold": 0.70,
+    "risk_appetite": "medium"
+  },
+  "prompt_style": "You are BTC_MACD, a momentum trader focused on MACD crossovers and histogram divergences on Bitcoin.",
+  "team_id": "Team4"
+}

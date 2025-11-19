@@ -1,0 +1,11 @@
+{
+  "agent_id": "BNB_Scalper",
+  "symbol": "BNB/USDT",
+  "style": "macd_momentum",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 5,
+    "confidence_threshold": 0.70
+  },
+  "description": "MACD Momentum strategy - quick trades on trend changes"
+}

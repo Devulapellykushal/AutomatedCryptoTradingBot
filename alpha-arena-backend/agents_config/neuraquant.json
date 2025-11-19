@@ -1,0 +1,18 @@
+{
+  "agent_id": "NeuraQuant",
+  "symbol": "BNB/USDT",
+  "style": "mean_reversion",
+  "description": "Conservative mean reversion trader targeting overextended moves",
+  "parameters": {
+    "leverage_max": 3,
+    "confidence_threshold": 0.65,
+    "risk_appetite": "low",
+    "lookback_periods": 50,
+    "ema_fast": 9,
+    "ema_slow": 21,
+    "rsi_oversold": 25,
+    "rsi_overbought": 75
+  },
+  "prompt_style": "You are NeuraQuant, a disciplined mean reversion trader. You fade extreme moves and wait for RSI divergences. You prioritize capital preservation over aggressive gains.",
+  "team_id": "Team2"
+}

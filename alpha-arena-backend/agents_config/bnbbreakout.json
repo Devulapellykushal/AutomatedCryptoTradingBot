@@ -1,0 +1,11 @@
+{
+  "agent_id": "BNB_Breakout",
+  "symbol": "BNB/USDT",
+  "style": "breakout",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 4,
+    "confidence_threshold": 0.70
+  },
+  "description": "Professional breakout strategy - enters when price breaks support/resistance zones"
+}

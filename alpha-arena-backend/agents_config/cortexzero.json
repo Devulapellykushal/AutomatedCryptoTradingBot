@@ -1,0 +1,18 @@
+{
+  "agent_id": "CortexZero",
+  "symbol": "DOGE/USDT",
+  "style": "scalping",
+  "description": "High-frequency scalper targeting quick in-out moves",
+  "parameters": {
+    "leverage_max": 5,
+    "confidence_threshold": 0.75,
+    "risk_appetite": "high",
+    "lookback_periods": 30,
+    "ema_fast": 5,
+    "ema_slow": 13,
+    "rsi_oversold": 35,
+    "rsi_overbought": 65
+  },
+  "prompt_style": "You are CortexZero, a precise scalper. You target quick profits from small movements. You require very high confidence and minimal risk exposure per trade.",
+  "team_id": "Team5"
+}

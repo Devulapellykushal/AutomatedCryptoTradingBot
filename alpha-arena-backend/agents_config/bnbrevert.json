@@ -1,0 +1,8 @@
+{
+  "agent_id": "BNB_Reversion",
+  "symbol": "BNB/USDT",
+  "style": "mean_reversion",
+  "model": "gpt-4o-mini",
+  "leverage": 2,
+  "description": "Buys dips, sells peaks when RSI deviates from mean"
+}

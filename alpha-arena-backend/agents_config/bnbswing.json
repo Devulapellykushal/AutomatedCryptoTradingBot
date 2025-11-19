@@ -1,0 +1,11 @@
+{
+  "agent_id": "BNB_Momentum",
+  "symbol": "BNB/USDT",
+  "style": "trend_following",
+  "model": "gpt-4o-mini",
+  "parameters": {
+    "leverage_max": 5,
+    "confidence_threshold": 0.65
+  },
+  "description": "Trend-following momentum strategy on BNB/USDT using professional trend following"
+}

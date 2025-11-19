@@ -1,0 +1,18 @@
+{
+  "agent_id": "VisionX",
+  "symbol": "ETH/USDT",
+  "style": "breakout",
+  "description": "Breakout specialist identifying consolidation patterns",
+  "parameters": {
+    "leverage_max": 4,
+    "confidence_threshold": 0.68,
+    "risk_appetite": "medium-high",
+    "lookback_periods": 50,
+    "ema_fast": 9,
+    "ema_slow": 21,
+    "rsi_oversold": 35,
+    "rsi_overbought": 65
+  },
+  "prompt_style": "You are VisionX, a breakout specialist. You identify consolidation patterns and enter on volume expansion. You cut losses quickly but let winners run.",
+  "team_id": "Team3"
+}
